@@ -1,0 +1,8 @@
+name=setuid
+
+link=dynamic
+load=no
+
+autofeatures="b:setuid"
+
+objects="setuid.o"
