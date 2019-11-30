@@ -2,7 +2,7 @@
 Restore privileges dropped by zsh in --no-PRIVILEGED mode
 
 ## Concept
-In zsh, when the PRIVILEGED options is turned off, zsh will "[cause] the effective user and group IDs to be set to the real user and group IDs." However, zsh doesn't change the saved uid. Therefore, the user can load a module that restores the euid to what is was before zsh dropped privileges.
+In zsh, when the PRIVILEGED option is turned off, zsh will "[cause] the effective user and group IDs to be set to the real user and group IDs." However, zsh doesn't change the saved uid. Therefore, the user can load a module that restores the euid to what is was before zsh dropped privileges.
 
 ## Example
 ```bash
